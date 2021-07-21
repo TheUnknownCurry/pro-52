@@ -1,0 +1,55 @@
+.menu{
+    background-color: pink ;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:blue;
+padding:15px
+}
+body{
+    background-color: brown;
+    margin:0px
+}
+.bodyImage{position:relative}
+.bodyImage p{color:"aqua";
+    font-size: 55px;
+    font-family: fantasy;
+    position:absolute;
+    top:10%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+.bodyImage h3{
+    color:"aqua";
+    font-size:30px;
+    width: 1600px;
+    font-family: fantasy;
+    position:absolute;
+    top:40%;
+    left: 45%;
+    transform:translate(-40%,-40%) 
+}
+
+    .grid{
+    display:flex;
+    flex-wrap:wrap;
+    margin:40px;
+    font-family: sans-serif;
+    }
+    .grid img{
+        border:2px solid tomato;
+        border-radius: 50px
+    }
+    .origami{
+        border-radius: 20px;
+        background-color: violet;
+        width:310px;
+        font-family:fantasy;
+    margin:25px;
+    padding: 30px;
+    }
+    .origami:hover{
+        transform: scale(1.2);
+    }
